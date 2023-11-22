@@ -5,21 +5,12 @@ import React from 'react';
 import { useState } from 'react';
 import axios from 'axios';
 
+let test;
+
 function DbSectoin(){
   const [originalUrl, setOriginalUrl] = useState('');
   const [shortenedUrl, setShortenedUrl] = useState('');
 
-  // const handleShortenClick = async () => {
-  //     const updateString = 'new update';
-  //     document.getElementById('shortenedUrl').innerHTML +="new text";
-  //     window.alert('button pressed');
-  // }
-
-    // const handleShortenClick = function(){
-    // console.log('button pressed');
-    // document.getElementById('shortenedUrl').innerHTML +="new text";
-    // window.alert('button pressed');
-// }
     const handleShortenClick = (event) =>{
       console.log(originalUrl);
       event.preventDefault();
