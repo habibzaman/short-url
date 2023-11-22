@@ -5,7 +5,7 @@ import React from 'react';
 import { useState } from 'react';
 import axios from 'axios';
 
-let test;
+console.log('hello');
 
 function DbSectoin(){
   const [originalUrl, setOriginalUrl] = useState('');
