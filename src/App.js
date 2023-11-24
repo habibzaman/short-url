@@ -101,7 +101,7 @@ function TextBox(){
 function App(){
   return (
     <div>
-      {/* <DbSectoin /> */}
+      <DbSectoin />
       <TextBox />
     </div>
   )
