@@ -98,22 +98,11 @@ function TextBox(){
   )
 }
 
-function TestComponent(){
-  return (
-    <div>
-      <p>Test</p>
-      <p>Test</p>
-    </div>
-
-  )
-}
-
 function App(){
   return (
     <div>
       <DbSectoin />
       <TextBox />
-      <TestComponent />
     </div>
   )
 }
