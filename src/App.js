@@ -7,6 +7,7 @@ import axios from 'axios';
 
 console.log('hello');
 
+
 function DbSectoin(){
   const [originalUrl, setOriginalUrl] = useState('');
   const [shortenedUrl, setShortenedUrl] = useState('');
@@ -85,10 +86,23 @@ function DbSectoin(){
     
 }
 
+function TextBox(){
+  return(
+    <div className='container'>
+      <div className='row'>
+        <div className='col'>
+          <p>This is a new component</p>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 function App(){
   return (
     <div>
       <DbSectoin />
+      <TextBox />
     </div>
   )
 }
