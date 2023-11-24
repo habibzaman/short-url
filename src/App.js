@@ -100,7 +100,11 @@ function TextBox(){
 
 function TestComponent(){
   return (
-    <h3>Test</h3>
+    <div>
+      <p>Test</p>
+      <p>Test</p>
+    </div>
+
   )
 }
 
@@ -109,6 +113,7 @@ function App(){
     <div>
       <DbSectoin />
       <TextBox />
+      <TestComponent />
     </div>
   )
 }
