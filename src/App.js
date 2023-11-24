@@ -98,6 +98,12 @@ function TextBox(){
   )
 }
 
+function TestComponent(){
+  return (
+    <h3>Test</h3>
+  )
+}
+
 function App(){
   return (
     <div>
